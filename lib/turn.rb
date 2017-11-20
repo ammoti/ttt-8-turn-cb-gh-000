@@ -24,6 +24,7 @@ def turn(board)
   if
     move(board,getIndex)
   end
+end
 
 def input_to_index(position)
   return position.to_i-1
