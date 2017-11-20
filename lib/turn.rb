@@ -7,7 +7,7 @@ def valid_move?(board,index)
       return false
   end
   if (board[index]!="X" && board[index]!="O")
-    return true
+    return false
   end
   return false
 end
