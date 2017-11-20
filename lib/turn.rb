@@ -27,7 +27,6 @@ def turn(board)
     turn(board)
   end
   isValid = valid_move?(board,getIndex)
-  print "#{isValid} #{getIndex}"
   if isValid==false
     move(board,getIndex)
     display_board(board)
