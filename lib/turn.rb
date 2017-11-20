@@ -23,7 +23,7 @@ def turn(board)
   if isValid
     move(board,getIndex)
   end
-else   
+else
   turn(board)
 end
 end
