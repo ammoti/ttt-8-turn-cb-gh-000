@@ -22,6 +22,7 @@ def turn(board)
   isValid = valid_move?(board,getIndex)
   if isValid
     move(board,getIndex)
+    display_board(board)
   else
     turn(board)
   end
