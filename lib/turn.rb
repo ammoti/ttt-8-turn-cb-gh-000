@@ -23,9 +23,9 @@ def turn(board)
   if isValid
     move(board,getIndex)
   end
-else
-  turn(board)
-end
+  else
+    turn(board)
+  end
 end
 
 def input_to_index(position)
