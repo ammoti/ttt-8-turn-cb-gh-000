@@ -22,9 +22,9 @@ def turn(board)
   isValid = valid_move?(board,getIndex)
   if isValid
     move(board,getIndex)
-  end
   else
     turn(board)
+  end
 
 end
 
