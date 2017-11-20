@@ -19,6 +19,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   getIndex =input_to_index(gets.strip)
+  print "#{getIndex}"
   isValid = valid_move?(board,getIndex)
   if isValid
     move(board,getIndex)
