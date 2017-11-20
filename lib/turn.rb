@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def valid_move?(board,index)
-  if(board.length<index || board.length>index)
+  if(board.length<index || 0>index)
       return false
   end
   if (board[index]!="X" || board[index]!="O")
