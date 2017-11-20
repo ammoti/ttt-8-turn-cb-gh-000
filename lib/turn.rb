@@ -21,7 +21,7 @@ def turn(board)
   getIndex =input_to_index(gets.strip)
   isValid = valid_move?(board,getIndex)
   puts "#{isValid}"
-  if
+  if isValid
     move(board,getIndex)
   end
 end
